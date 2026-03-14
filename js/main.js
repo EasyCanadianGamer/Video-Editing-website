@@ -57,6 +57,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   /* ----- INTERSECTION OBSERVER — FADE IN ----- */
+  /* ----- AUTO YEAR ----- */
+  const yearEl = document.getElementById('footer-year');
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+
   const fadeObserver = window._fadeObserver = new IntersectionObserver(
     entries => {
       entries.forEach(entry => {

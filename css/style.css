@@ -867,6 +867,22 @@ footer p {
   color: var(--accent-light);
   transform: translateY(-2px);
 }
+.footer-discord {
+  display: flex;
+  align-items: center;
+  cursor: default;
+  opacity: 0.6;
+  transition: opacity var(--transition-fast), transform var(--transition-fast);
+}
+.footer-discord:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+}
+.discord-icon {
+  width: 1.1rem;
+  height: 1.1rem;
+  display: block;
+}
 .kofi-btn {
   display: inline-block;
   transition: opacity var(--transition-fast), transform var(--transition-fast);
