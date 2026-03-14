@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Canadian Gamer — Professional video editing services. DaVinci Resolve, Fusion, Canva, Affinity. YouTube longform & TikTok shorts.">
+  <title>Canadian Gamer | Video Editing</title>
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="icon" type="image/png" href="assets/pfp.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <img src="assets/CG-white-logo.png" alt="Canadian Gamer" class="logo-img">
+      </a>
+      <ul class="nav-links" id="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <canvas id="particle-canvas"></canvas>
+    <div class="hero-content">
+      <span class="hero-eyebrow">Video Editor &middot; Content Creator</span>
+      <h1>Frames That<br><span class="accent-text">Hit Different.</span></h1>
+      <p class="hero-sub">
+        Professional edits for YouTube &amp; TikTok — powered by DaVinci Resolve &amp; Fusion.
+        Based on the <strong>Canadian Gamer</strong> channel.
+      </p>
+      <div class="hero-cta">
+        <a href="#services" class="btn btn-primary">
+          <i class="fa-solid fa-film"></i> View Services
+        </a>
+        <a href="#contact" class="btn btn-ghost">
+          Get in Touch <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+    <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+      <i class="fa-solid fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <div class="container">
+      <div class="about-layout">
+        <div class="about-photo" data-animate>
+          <img src="assets/pfp.png" alt="Canadian Gamer profile photo">
+        </div>
+        <div class="about-text" data-animate>
+          <span class="section-eyebrow">Who I Am</span>
+          <h2>About <span class="accent-text">Me</span></h2>
+          <p>
+            I'm a Canadian content creator and video editor who runs the YouTube channel
+            <strong>Canadian Gamer</strong>. I craft engaging, high-quality edits that keep
+            viewers hooked — from cinematic longform content to punchy short-form clips built
+            for the scroll.
+          </p>
+        </div>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card glass-card" data-animate>
+          <div class="skill-icon">
+            <img src="assets/Davinci-Resolve-logo.jpeg" alt="DaVinci Resolve" class="skill-logo">
+          </div>
+          <h3>DaVinci Resolve</h3>
+          <p>Professional timeline editing, subtitling, and audio mastering for broadcast-quality results.</p>
+        </div>
+
+        <div class="skill-card glass-card" data-animate>
+          <div class="skill-icon">
+            <img src="assets/Davinci-Resolve-logo.jpeg" alt="Fusion" class="skill-logo">
+          </div>
+          <h3>Fusion</h3>
+          <p>Node-based visual effects, motion graphics, and compositing built directly inside DaVinci Resolve.</p>
+        </div>
+
+        <div class="skill-card glass-card" data-animate>
+          <div class="skill-icon affinity">
+            <img src="assets/Affinity/Affinity_idrH4ciTYx_1.svg" alt="Affinity" class="skill-logo">
+          </div>
+          <h3>Affinity</h3>
+          <p>Advanced graphic design and photo retouching using Affinity Designer and Affinity Photo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section id="services">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <span class="section-eyebrow">What I Offer</span>
+        <h2>Services &amp; <span class="accent-text">Pricing</span></h2>
+        <p>Simple, transparent pricing. No hidden fees.</p>
+      </div>
+
+      <div class="services-grid">
+
+        <div class="service-card glass-card" data-animate>
+          <div class="service-icon">
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+          <h3>YouTube Longform</h3>
+          <div class="price-tag">$170<span>/video</span></div>
+          <ul class="feature-list">
+            <li><i class="fa-solid fa-check"></i> Full timeline editing</li>
+            <li><i class="fa-solid fa-check"></i> Subtilting</li>
+            <li><i class="fa-solid fa-check"></i> Motion graphics (Fusion)</li>
+            <li><i class="fa-solid fa-check"></i> Thumbnail design available</li>
+            <li><i class="fa-solid fa-check"></i> 2 revision rounds</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">Get Started</a>
+        </div>
+
+        <div class="service-card glass-card featured" data-animate>
+          <span class="badge">Popular</span>
+          <div class="service-icon">
+            <i class="fa-brands fa-tiktok"></i>
+          </div>
+          <h3>TikTok Short</h3>
+          <div class="price-tag">$70<span>/video</span></div>
+          <ul class="feature-list">
+            <li><i class="fa-solid fa-check"></i> Vertical format editing</li>
+            <li><i class="fa-solid fa-check"></i> Trend-matching cuts</li>
+            <li><i class="fa-solid fa-check"></i> Captions &amp; text overlays</li>
+            <li><i class="fa-solid fa-check"></i> Audio sync &amp; SFX</li>
+            <li><i class="fa-solid fa-check"></i> 1 revision round</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">Get Started</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PORTFOLIO ===== -->
+  <section id="portfolio">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <span class="section-eyebrow">My Work</span>
+        <h2>Portfolio <span class="accent-text">Reel</span></h2>
+        <p>My YouTube channel is my portfolio — every video is an example of my editing work.</p>
+      </div>
+
+      <div class="portfolio-cta" data-animate>
+        <a href="https://www.youtube.com/@CanadianGamer23" class="btn btn-primary" target="_blank" rel="noopener">
+          <i class="fa-brands fa-youtube"></i> View My Channel
+        </a>
+        <a href="https://youtu.be/2MbX2iTZLCU?si=RlYrnyzmuO6HIXae" class="btn btn-ghost" target="_blank" rel="noopener">
+          <i class="fa-solid fa-clapperboard"></i> Watch Editing Reel
+        </a>
+      </div>
+
+      <!-- Channels I Worked With -->
+      <div class="collab-header" data-animate>
+        <span class="section-eyebrow">Collaborations</span>
+        <h3>Channels I've <span class="accent-text">Worked With</span></h3>
+      </div>
+
+      <div class="collab-grid"></div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <span class="section-eyebrow">Work With Me</span>
+        <h2>Let's <span class="accent-text">Connect</span></h2>
+        <p>Ready to level up your content? Reach out through any of the channels below.</p>
+      </div>
+
+      <div class="contact-grid">
+
+        <div class="contact-card glass-card" data-animate>
+          <div class="contact-icon discord">
+            <i class="fa-brands fa-discord"></i>
+          </div>
+          <h3>Discord</h3>
+          <span>CanadianGamer#5838</span>
+        </div>
+
+        <a href="https://twitter.com/C_G_2_3" class="contact-card glass-card" target="_blank" rel="noopener" data-animate>
+          <div class="contact-icon twitter">
+            <i class="fa-brands fa-x-twitter"></i>
+          </div>
+          <h3>Twitter / X</h3>
+          <span>@C_G_2_3</span>
+        </a>
+
+        <a href="mailto:Canadaiangamer2019@gmail.com" class="contact-card glass-card" data-animate>
+          <div class="contact-icon email">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <h3>Email</h3>
+          <span>Canadaiangamer2019@gmail.com</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <img src="assets/CG-white-logo.png" alt="Canadian Gamer" class="footer-logo-img">
+        <p>&copy; 2026 Canadian Gamer. Edited with passion &amp; DaVinci Resolve.</p>
+        <div class="footer-socials">
+          <a href="https://twitter.com/C_G_2_3" target="_blank" rel="noopener" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="mailto:Canadaiangamer2019@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <a href="https://ko-fi.com/canadiangamer" target="_blank" rel="noopener" class="kofi-btn">
+          <img src="assets/kofi_brandasset/support_me_on_kofi_badge_dark.png" alt="Support me on Ko-fi">
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/particles.js" defer></script>
+  <script src="js/main.js" defer></script>
+  <script src="js/config.js" defer></script>
+  <script src="js/collabs.js" defer></script>
+</body>
+</html>

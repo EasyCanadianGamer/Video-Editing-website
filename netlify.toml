@@ -1,0 +1,7 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from   = "/api/collabs"
+  to     = "/.netlify/functions/collabs"
+  status = 200
