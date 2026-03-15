@@ -618,9 +618,13 @@ body {
 
 .styles-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 380px));
+  justify-content: center;
   gap: 2rem;
   margin-top: 3rem;
+}
+@media (max-width: 900px) {
+  .styles-grid { grid-template-columns: minmax(0, 480px); }
 }
 
 .style-card {
